@@ -22,6 +22,11 @@ I created `folder2.html` and `folder2/index.html`:
 - https://simonw.github.io/playing-with-github-pages/folder2/index serves `folder2/index.html`
 - https://simonw.github.io/playing-with-github-pages/folder2/index.html serves `folder2/index.html`
 
+I also created `folder-with-no-index/` without a `index.html` file:
+
+- https://simonw.github.io/playing-with-github-pages/folder-with-no-index redirects to `/folder-with-no-index/`
+- https://simonw.github.io/playing-with-github-pages/folder-with-no-index/ serves a 404
+
 `index.json` can act as an index page too:
 
 - https://simonw.github.io/playing-with-github-pages/json redirects to `/json/`

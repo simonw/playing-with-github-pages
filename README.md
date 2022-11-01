@@ -4,4 +4,4 @@
 - https://simonw.github.io/playing-with-github-pages/foo serves `foo.html`
 - https://simonw.github.io/playing-with-github-pages/foo.html serves `foo.html`
 - https://simonw.github.io/playing-with-github-pages/bar.json serves `bar.json`
-- https://simonw.github.io/playing-with-github-pages/bar serves a 404
+- https://simonw.github.io/playing-with-github-pages/bar serves a 404 (actually the custom `404.html` page)

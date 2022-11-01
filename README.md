@@ -22,4 +22,15 @@ I created `folder2.html` and `folder2/index.html`:
 - https://simonw.github.io/playing-with-github-pages/folder2/index serves `folder2/index.html`
 - https://simonw.github.io/playing-with-github-pages/folder2/index.html serves `folder2/index.html`
 
+`index.json` can act as an index page too:
+
+- https://simonw.github.io/playing-with-github-pages/json redirects to `/json/`
+- https://simonw.github.io/playing-with-github-pages/json/ serves `json/index.json`
+- https://simonw.github.io/playing-with-github-pages/json/index serves a 404
+- https://simonw.github.io/playing-with-github-pages/json/index.json serves `json/index.json`
+- https://simonw.github.io/playing-with-github-pages/json/bar serves a 404
+- https://simonw.github.io/playing-with-github-pages/json/bar.json serves `json/bar.json`
+- https://simonw.github.io/playing-with-github-pages/json/foo redirects to `/json/foo/`
+- https://simonw.github.io/playing-with-github-pages/json/foo/ serves `json/foo/index.json`
+
 The existence of the `.nojekyll` file causes GitHub Pages to publish the raw files without attempting to run Jekyll against them first.

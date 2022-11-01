@@ -5,3 +5,5 @@
 - https://simonw.github.io/playing-with-github-pages/foo.html serves `foo.html`
 - https://simonw.github.io/playing-with-github-pages/bar.json serves `bar.json`
 - https://simonw.github.io/playing-with-github-pages/bar serves a 404 (actually the custom `404.html` page)
+
+The existence of the `.nojekyll` file causes GitHub Pages to publish the raw files without attempting to run Jekyll against them first.
